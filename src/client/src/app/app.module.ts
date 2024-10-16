@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { UsuariosComponent } from './component/usuarios/usuarios.component';
+import { PresentePantallaComponent } from './presente-pantalla/presente-pantalla.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AppComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    PresentePantallaComponent
   ],
   imports: [
     BrowserModule,

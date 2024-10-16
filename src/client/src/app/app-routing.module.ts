@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './component/home/home.component';
 import { UsuariosComponent } from './component/usuarios/usuarios.component';
+import { PresentePantallaComponent } from './presente-pantalla/presente-pantalla.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path : 'usuarios',
     component : UsuariosComponent
+  },
+  {
+    path: 'pantalla-principal',
+    component : PresentePantallaComponent
   }
 ];
 
