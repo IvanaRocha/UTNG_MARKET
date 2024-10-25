@@ -7,14 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { UsuariosComponent } from './component/usuarios/usuarios.component';
-import { PresentePantallaComponent } from './presente-pantalla/presente-pantalla.component';
+import { CarritoComponent } from './component/carrito/carrito.component';
+
 
 @NgModule({
   declarations: [
     HomeComponent,
+    UsuariosComponent,
     AppComponent,
     UsuariosComponent,
-    PresentePantallaComponent
+    CarritoComponent
   ],
   imports: [
     BrowserModule,
